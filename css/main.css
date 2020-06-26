@@ -1,19 +1,18 @@
 @charset "UTF-8";
 
-/*
- * Slideshow
- */
 .slideshow {
-    overflow: hidden;
     position: relative;
-    min-width: 960px;
-    height: 465px;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
 }
 .slideshow img {
-    display: none;
     position: absolute;
-    left: 50%;
-    margin-left: -800px;
+    display: none;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 /* JavsScript 無効時 */
